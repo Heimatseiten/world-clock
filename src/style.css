@@ -15,7 +15,7 @@ body {
   display: flex;
   margin: 20px;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 20px 0;
   border-bottom: 1px dashed rgb(216, 211, 207);
 }
 .city:last-child {

@@ -32,7 +32,7 @@ function updateTime() {
   let newZealandElement = document.querySelector("#newZealand");
   let newZealandDateElement = newZealandElement.querySelector(".date");
   let newZealandTimeElement = newZealandElement.querySelector(".time");
-  let newZealandTime = moment().tz("Indian/Maldives");
+  let newZealandTime = moment().tz("Pacific/Auckland");
 
   newZealandDateElement.innerHTML = moment().format("MMMM Do YYYY");
   newZealandTimeElement.innerHTML = newZealandTime.format(
