@@ -25,7 +25,7 @@ body {
   opacity: 0.7;
 }
 .time {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 .time small {
@@ -35,6 +35,7 @@ body {
 }
 h1 {
   text-align: center;
+  font-size: 40px;
 }
 select {
   background-color: rgba(216, 211, 207, 0.5);
