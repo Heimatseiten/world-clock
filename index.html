@@ -10,28 +10,30 @@
   </head>
   <body>
     <div class="container" id="box-background">
-      <h1>World clock</h1>
-      <select>
-        <option value="">Select a city</option>
-        <option value="">München</option>
-        <option value="">Toulouse</option>
-        <option value="">Stockholm</option>
+      <h1>⌛ World clock ⏳</h1>
+      <select id="city">
+        <option value="">Select ...</option>
+        <option value="Europe/Lisbon">Portugal</option>
+        <option value="Mexico/General">Mexico</option>
+        <option value="Europe/Stockholm">Schweden</option>
       </select>
 
-      <div class="city" id="hawai">
-        <div>
-          <h2>Hawai🌴</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="hawai">
+          <div>
+            <h2>Hawai🌴</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="iceland">
-        <div>
-          <h2>Iceland 🏔️</h2>
-          <div class="date"></div>
+        <div class="city" id="iceland">
+          <div>
+            <h2>Iceland 🏔️</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
