@@ -54,6 +54,9 @@ h2 {
   margin: 0 0 5px;
   font-size: 28px;
 }
+a {
+  color: aquamarine;
+}
 footer {
   text-align: center;
   font-size: 18px;
