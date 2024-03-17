@@ -8,34 +8,40 @@
     <title>World Clock of Tine Lüttgen</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="box-background">
       <h1>World clock</h1>
-
       <select>
         <option value="">Select a city</option>
         <option value="">München</option>
         <option value="">Toulouse</option>
         <option value="">Stockholm</option>
       </select>
-
       <div class="city">
-        <h2>Cologne 🍺</h2>
-        <div class="date">March 16th 2024</div>
-        <div class="time">1:11:11 AM</div>
+        <div>
+          <h2>Cologne 🍺</h2>
+          <div class="date">March 16th 2024</div>
+        </div>
+        <div class="time">1:11:11 <small>AM</small></div>
       </div>
 
       <div class="city">
-        <h2>Rom 🍝</h2>
-        <div class="date">March 16th 2024</div>
-        <div class="time">1:11:11 AM</div>
+        <div>
+          <h2>Rom 🍝</h2>
+          <div class="date">March 16th 2024</div>
+        </div>
+        <div class="time">1:11:11 <small>AM</small></div>
       </div>
     </div>
     <footer>
-      This project was coded with 💜 by Tine Lüttgen and is
+      This project was coded with 💜 by <strong>Tine Lüttgen</strong> and is
       <a href="https://world-clock-clue.netlify.app/" target="_blank"
-        >open sourced on GitHub</a
-      >
+        >open sourced </a
+      >on <a href="https://github.com/Heimatseiten">GitHub</a>
     </footer>
+
+    <video id="background-video" autoplay muted loop>
+      <source src="pexels_videos_2408284 (2160p).mp4" type="video/mp4" />
+    </video>
     <script src="src/index.js"></script>
   </body>
 </html>
